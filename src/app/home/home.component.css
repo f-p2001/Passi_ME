@@ -1,0 +1,57 @@
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  .jumbotron p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  .jumbotron .list-group-item {
+    background-color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    padding: 15px;
+    color: #343a40;
+  }
+  
+  .jumbotron .list-group-item:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+  }
+  
+  .jumbotron .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .jumbotron .btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 800px;
+  }
+  
+  /* New CSS to remove the underline from links */
+  .jumbotron .list-group-item a {
+    text-decoration: none;
+    color: #343a40; /* Keeps the text color consistent with the list item */
+  }
+  
+  .jumbotron .list-group-item a:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+  }
+  
